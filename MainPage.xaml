@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="DemoUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DemoUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="White">
+        <TextBlock HorizontalAlignment="Left" Margin="647,10,0,0" TextWrapping="Wrap" Text="DEMO" VerticalAlignment="Top" Height="44" Width="356" FontSize="36" FocusVisualPrimaryBrush="White"/>
+        <Image x:Name="Imagen1" HorizontalAlignment="Left" Height="120" Margin="100,95,0,0" VerticalAlignment="Top" Width="124" Source="/Assets/festival.png"/>
+        <Image x:Name="Imagen2" HorizontalAlignment="Left" Height="130" Margin="1012,85,0,0" VerticalAlignment="Top" Width="121" Source="/Assets/tucan.png"/>
+        <Image x:Name="Imagen3" HorizontalAlignment="Left" Height="130" Margin="619,85,0,0" VerticalAlignment="Top" Width="135" Source="/Assets/qr_code_shapes_and_symbols_icon.png"/>
+        <Image x:Name="ImgCentro" HorizontalAlignment="Left" Height="262" Margin="554,500,0,0" VerticalAlignment="Top" Width="311" Source="/Assets/system_windows_icon.png"/>
+        <Button x:Name="PonerEncima" Content="Encimar" Margin="1172,0,0,0" Height="76" Width="158" FocusVisualPrimaryBrush="#FFFFEB66" FocusVisualSecondaryBrush="{ThemeResource AppBarBackgroundThemeBrush}" Foreground="DarkCyan" BorderBrush="#FF003EFF" Click="PonerEncima_Click">
+            <Button.Background>
+                <AcrylicBrush TintColor="#CC00CAFF"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>
